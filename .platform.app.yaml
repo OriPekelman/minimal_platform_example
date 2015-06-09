@@ -1,7 +1,8 @@
 name: myapp                   # The name of this app. Must be unique within a project.
 toolstack: "php:symfony"      # We choose php:symfony for anything but Drupal
-document_root: "/"
-passthru: "/index.php"
+web:
+  document_root: "/"
+  passthru: "/index.php"
 relationships:                # Here we say we want access to a mysql instance we call "main_db"
     database: "mysql:mysql"
 disk: 2048

@@ -2,4 +2,4 @@ name: myapp                   # The name of this app. Must be unique within a pr
 toolstack: "php:symfony"      # We choose php:symfony for anything but Drupal
 relationships:                # Here we say we want access to a mysql instance
     database: "main_db:mysql"
-disk:2048
+disk: 2048

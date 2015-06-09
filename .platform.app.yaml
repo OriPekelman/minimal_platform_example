@@ -1,4 +1,4 @@
-name: MyApp                   # The name of this app. Must be unique within a project.
+name: myapp                   # The name of this app. Must be unique within a project.
 toolstack: "php:symfony"      # We choose php:symfony for anything but Drupal
 relationships:                # Here we say we want access to a mysql instance
     database: "main_db:mysql"

@@ -1,3 +1,3 @@
-maindb:
+mysql:
     type: mysql
     disk: 2048

@@ -19,4 +19,4 @@ $query = 'SELECT * from users;';
 $result = mysql_query($query) or die('Query failed: ' . mysql_error());
 echo("Created table inserted values here are the results:");
 echo mysql_result($result, 0);
-echo "</pre></body></html>"
+echo "</pre></body></html>";

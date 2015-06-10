@@ -12,11 +12,11 @@ mysql_select_db($relationships['database'][0]['path']) or die('Could not select 
 
 // Performing SQL query
 $query = 'CREATE TABLE users (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, name VARCHAR(30) NOT NULL);';
-$result = mysql_query($query) or die('Query failed: ' . mysql_error());
-$query = 'INSERT INTO users(name) VALUES ("john");';
-$result = mysql_query($query) or die('Query failed: ' . mysql_error());
+$result = mysql_query($query) or echo('Query failed: ' . mysql_error());
+$query = 'INSERT INTO users(name) VALUES ("John");';
+$result = mysql_query($query) or echo('Query failed: ' . mysql_error());
 $query = 'SELECT * from users;';
-$result = mysql_query($query) or die('Query failed: ' . mysql_error());
+$result = mysql_query($query) or echo('Query failed: ' . mysql_error());
 echo("Created table inserted values here are the results:");
 echo mysql_result($result, 0);
 echo "</pre></body></html>";

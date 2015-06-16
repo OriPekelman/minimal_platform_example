@@ -7,7 +7,7 @@ relationships:                # Here we say we want access to a mysql instance w
     my_main_store: "database:mysql"
     a_specialdb: "moar_database:postgresql"
     search: "search:solr"
-    second_search_engine:"moar_search:elasticsearch"
+    second_search_engine: "moar_search:elasticsearch"
     cache: "cache:redis"
     more_cache: "moar_cache:memcache"
     webscaledb: "mongo:mongodb"

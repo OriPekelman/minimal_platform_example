@@ -1,7 +1,7 @@
 # The routes of the project.
 "http://{default}/":
     type: upstream
-    upstream: "php:php"
+    upstream: "myapp:php"
 "http://www.{default}/":
     type: redirect
     to: "http://{default}/"

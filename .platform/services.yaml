@@ -1,3 +1,23 @@
-db:
+database:
     type: mysql
-    disk: 2048
+    disk: 200
+moar_database:
+    type: postgresql
+    disk: 200
+search:
+    type: solr
+    disk: 200
+moar_search:
+    type: elasticsearch
+    disk: 200
+cache:
+    type: redis
+    disk: 200
+moar_cache:
+    type: memcache
+    disk: 200
+mongo:
+    type: mongodb
+    disk: 200
+
+    

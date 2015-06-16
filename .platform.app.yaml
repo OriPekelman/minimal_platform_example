@@ -4,5 +4,11 @@ web:
   document_root: "/"
   passthru: "/index.php"
 relationships:                # Here we say we want access to a mysql instance we call "main_db"
-    my_main_store: "db:mysql"
-disk: 2048
+    my_main_store: "database:mysql"
+    a_specialdb: "moar_database:postgresql"
+    search: "search:solr"
+    second_search_engine:"moar_search:elasticsearch"
+    cache: "cache:redis"
+    more_cache: "moar_cache:memcache"
+    webscaledb: "mongo:mongodb"
+disk: 100

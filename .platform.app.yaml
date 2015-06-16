@@ -5,10 +5,10 @@ web:
   passthru: "/index.php"
 relationships:                # Here we say we want access to a mysql instance we call "main_db"
     my_main_store: "database:mysql"
-    a_specialdb: "moar_database:postgresql"
+    a_specialdb: "moardatabase:postgresql"
     search: "search:solr"
-    second_search_engine: "moar_search:elasticsearch"
+    second_search_engine: "moarsearch:elasticsearch"
     cache: "cache:redis"
-    more_cache: "moar_cache:memcache"
+    more_cache: "moarcache:memcache"
     webscaledb: "mongo:mongodb"
 disk: 100

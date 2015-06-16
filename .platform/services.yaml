@@ -1,23 +1,21 @@
 database:
     type: mysql
     disk: 200
-moar_database:
+moardatabase:
     type: postgresql
     disk: 200
 search:
     type: solr
     disk: 200
-moar_search:
+moarsearch:
     type: elasticsearch
     disk: 200
 cache:
     type: redis
     disk: 200
-moar_cache:
+moarcache:
     type: memcache
     disk: 200
 mongo:
     type: mongodb
     disk: 200
-
-    

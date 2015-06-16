@@ -4,5 +4,5 @@ web:
   document_root: "/"
   passthru: "/index.php"
 relationships:                # Here we say we want access to a mysql instance we call "main_db"
-    database: "mysql:mysql"
+    my_main_store: "db:mysql"
 disk: 2048

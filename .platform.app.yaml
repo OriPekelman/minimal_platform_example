@@ -1,4 +1,4 @@
-name: php                   # The name of this app. Must be unique within a project.
+name: My-App                   # The name of this app. Must be unique within a project.
 toolstack: "php:symfony"      # We choose php:symfony for anything but Drupal
 web:
   document_root: "/"

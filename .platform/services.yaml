@@ -13,9 +13,6 @@ moarsearch:
 cache:
     type: redis
     disk: 200
-moarcache:
-    type: memcache
-    disk: 200
 mongo:
     type: mongodb
     disk: 200
